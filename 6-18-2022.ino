@@ -43,9 +43,9 @@ void loop()
     // Todo echte wachttijd berekenen...
     delay(1000 * intervalInSeconds);
 
-    //noInterrupts();
+    noInterrupts();
     unsigned long p = pulseCount; 
-   // interrupts();
+    interrupts();
 
     // bereken aantal pulsen in deze wacht tijd
     // omrekenen naar Wattage    
