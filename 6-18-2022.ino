@@ -1,8 +1,8 @@
 #include "WiFi.h"
 const byte ledPin = 17;
 const byte interruptPin = 16;
-const char* ssid = "Area51 IoT";
-const char* password =  "Afblijven01!";
+const char* ssid = "**********";
+const char* password =  "**********";
 volatile byte state = LOW;
 
 //Number of pulses, used to measure energy.
